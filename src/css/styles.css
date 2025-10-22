@@ -1,1 +1,61 @@
-
+body {
+	background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/175/140/original/malte-michels-s4wGZw3UuLk-unsplash.jpg?1761126643);
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+	background-color: #dcd7c9;
+	border-radius: 15px;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+	margin: 0 auto;
+	margin-top: 50px;
+	max-width: 600px;
+	padding: 10px 50px;
+}
+h1 {
+	color: #2c3930;
+	font-size: 48px;
+	text-align: center;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+select {
+	background-color: #3f4f44;
+	border-radius: 10px;
+	color: #dcd7c9;
+	display: block;
+	font-size: 16px;
+	padding: 10px;
+	width: 100%;
+}
+.city {
+	color: #3f4f44;
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0 10px 0;
+}
+h2 {
+	font-size: 25px;
+	margin-bottom: -15px;
+}
+.date {
+	font-size: 16px;
+	opacity: 0.9;
+}
+.current-time {
+	font-size: 32px;
+	font-weight: bold;
+}
+hr {
+	border: none;
+	border-top: 1px dashed #3f4f44;
+	margin: 5px 0;
+}
+.credits {
+	color: #dcd7c9;
+	font-size: 14px;
+	margin-top: 15px;
+	text-align: center;
+}
+a {
+	color: #dcd7c9;
+}
