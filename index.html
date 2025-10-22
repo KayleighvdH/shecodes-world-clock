@@ -5,6 +5,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<!-- Link CSS File -->
 		<link rel="stylesheet" href="/src/css/styles.css" />
+		<!-- Import Moment JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+		<!-- Import Moment JS Timezone -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.6.0/moment-timezone-with-data-1970-2030.min.js"></script>
 		<title>Shecodes World Clock</title>
 	</head>
 	<body>
@@ -21,20 +25,20 @@
 
 			<div class="cities-block">
 				<!-- Amsterdam Clock -->
-				<div class="city">
+				<div class="city" id="amsterdam">
 					<div>
 						<h2>Amsterdam</h2>
-						<p class="date">Monday, 10 July 2023</p>
+						<p class="date"></p>
 					</div>
 					<div class="current-time">
-						<p class="time">10:45:32</p>
+						<p class="time"></p>
 					</div>
 				</div>
 
 				<hr />
 
 				<!-- London Clock -->
-				<div class="city">
+				<div class="city" id="london">
 					<div>
 						<h2>London</h2>
 						<p class="date">Monday, 10 July 2023</p>
@@ -47,7 +51,7 @@
 				<hr />
 
 				<!-- Tokyo Clock -->
-				<div class="city">
+				<div class="city" id="tokyo">
 					<div>
 						<h2>Tokyo</h2>
 						<p class="date">Monday, 10 July 2023</p>
@@ -60,7 +64,7 @@
 				<hr />
 
 				<!-- New York Clock -->
-				<div class="city">
+				<div class="city" id="new-york">
 					<div>
 						<h2>New York</h2>
 						<p class="date">Monday, 10 July 2023</p>
